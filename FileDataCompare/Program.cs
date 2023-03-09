@@ -58,6 +58,7 @@ namespace FileDataCompare
                     if (!matchFile)
                     {
                         //Console.WriteLine("{0},NOT FOUND,,,,", line);
+                        //Console.WriteLine("{0},NOT FOUND,,,,", line);
                         sw.WriteLine("{0},NOT FOUND,,,,", source);
                     }
                     Console.WriteLine(source);
